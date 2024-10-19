@@ -23,12 +23,10 @@ console.log(driverName)
 console.log(driverNameInReverse)
 
 // Iteration 3: Loops
-if (hacker1 < hacker2){
-   console.log("The driver's name goes first.")
-}
-else if (hacker2 < hacker1) {
-   console.log("Yo, the navigator goes first, definitely.")
-}
-else {
-   console.log("What?! You both have the same name?")
-}
+if (hacker1.localeCompare(hacker2) < 0) {
+    console.log("The driver's name goes first.");
+  } else if (hacker1.localeCompare(hacker2) > 0) {
+    console.log("Yo, the navigator goes first, definitely.");
+  } else {
+    console.log("What?! You both have the same name?");
+  }
