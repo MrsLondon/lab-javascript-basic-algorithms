@@ -4,7 +4,8 @@ const hacker1 = "Sophia";
 const hacker2 = "Viktor";
 const length1 = hacker1.length;
 const length2 = hacker2.length;
-console.log(`The driver's name is ${hacker1}`)
+console.log(`The driver's name is ${hacker1}`);
+console.log(`The driver's name is ${hacker2}`);
 
 // Iteration 2: Conditionals
 if (length1 > length2){
